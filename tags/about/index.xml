@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Hello!</title>
-    <link>https://www.example.com/tags/about/</link>
+    <link>https://ppeir.is/tags/about/</link>
     <description>Recent content in About on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
-    <atom:link href="https://www.example.com/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ppeir.is/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/about/</link>
+      <link>https://ppeir.is/about/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/about/</guid>
+      <guid>https://ppeir.is/about/</guid>
       <description>&lt;p&gt;About me&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/about/index_/</link>
+      <link>https://ppeir.is/about/index_/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/about/index_/</guid>
+      <guid>https://ppeir.is/about/index_/</guid>
       <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
 
 &lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/contact/index_/</link>
+      <link>https://ppeir.is/contact/index_/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/contact/index_/</guid>
+      <guid>https://ppeir.is/contact/index_/</guid>
       <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
 
 &lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;

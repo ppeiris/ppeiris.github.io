@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello!</title>
-    <link>https://www.example.com/</link>
+    <link>https://ppeir.is/</link>
     <description>Recent content on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
-    <atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ppeir.is/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/about/</link>
+      <link>https://ppeir.is/about/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/about/</guid>
+      <guid>https://ppeir.is/about/</guid>
       <description>&lt;p&gt;About me&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/about/index_/</link>
+      <link>https://ppeir.is/about/index_/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/about/index_/</guid>
+      <guid>https://ppeir.is/about/index_/</guid>
       <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
 
 &lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>About</title>
-      <link>https://www.example.com/contact/index_/</link>
+      <link>https://ppeir.is/contact/index_/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/contact/index_/</guid>
+      <guid>https://ppeir.is/contact/index_/</guid>
       <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
 
 &lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;
@@ -49,10 +49,10 @@
     
     <item>
       <title>CodeRag</title>
-      <link>https://www.example.com/coderag/</link>
+      <link>https://ppeir.is/coderag/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/coderag/</guid>
+      <guid>https://ppeir.is/coderag/</guid>
       <description>&lt;p&gt;Notes: This article originally appeared in &lt;a href=&#34;http://www.coderag.com/-note-from-the-editor/&#34;&gt;CodeRag&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on. And like any other company in the Silicon Valley community, Code/Rag is an ever-evolving entity.&lt;/p&gt;
@@ -66,20 +66,20 @@ Editor-in-Chief&lt;/p&gt;
     
     <item>
       <title>Contact</title>
-      <link>https://www.example.com/contact/</link>
+      <link>https://ppeir.is/contact/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://www.example.com/contact/</guid>
+      <guid>https://ppeir.is/contact/</guid>
       <description>&lt;p&gt;Contact&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MathJax</title>
-      <link>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</link>
+      <link>https://ppeir.is/post/2016-11-21-mathjax-in-jekyll/</link>
       <pubDate>Sun, 02 Oct 2016 15:59:13 -0400</pubDate>
       
-      <guid>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</guid>
+      <guid>https://ppeir.is/post/2016-11-21-mathjax-in-jekyll/</guid>
       <description>
 
 &lt;p&gt;One of the primary reason I switch to &lt;em&gt;hugo&lt;/em&gt; is the the fact that I can write markdown files that will get formated and converted to static html files. The second reason is the ability to include &lt;code&gt;$ TeX Code $&lt;/code&gt; style equations using mathjax.&lt;/p&gt;
