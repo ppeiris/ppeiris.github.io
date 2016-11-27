@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latex on Hello!</title>
+    <link>https://www.example.com/tags/latex/</link>
+    <description>Recent content in Latex on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 02 Oct 2016 15:59:13 -0400</lastBuildDate>
+    <atom:link href="https://www.example.com/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MathJax</title>
+      <link>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</link>
+      <pubDate>Sun, 02 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</guid>
+      <description>
+
+&lt;p&gt;One of the primary reason I switch to &lt;em&gt;hugo&lt;/em&gt; is the the fact that I can write markdown files that will get formated and converted to static html files. The second reason is the ability to include &lt;code&gt;$ TeX Code $&lt;/code&gt; style equations using mathjax.&lt;/p&gt;
+
+&lt;h4 id=&#34;mathjax&#34;&gt;MathJax&lt;/h4&gt;
+
+&lt;p&gt;This is what they have on the mathjax website and its true &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;https://www.mathjax.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+Beautiful math in all browsers. A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;setup-mathjax-with-hugo&#34;&gt;Setup MathJax with hugo&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All you need to know how to set up MathJax is here &lt;a href=&#34;https://gohugo.io/tutorials/mathjax/&#34;&gt;https://gohugo.io/tutorials/mathjax/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;include the following script tag in to your site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/
+MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start writing some math equations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;$$G_{\mu\nu} + \Lambda g_{\mu} = \frac{8 \pi G}{c^{4}}T_{\mu\nu}$$&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;    G_{\mu\nu} + \Lambda g_{\mu\nu}=\frac{8\pi G}{c^{4}}T_{\mu\nu}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inline equations:  &lt;code&gt;\( f(x) = sin(x^2) \)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    `\( f(x) = sin(x^2) \)`
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

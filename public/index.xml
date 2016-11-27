@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello!</title>
+    <link>https://www.example.com/</link>
+    <description>Recent content on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    <atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://www.example.com/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://www.example.com/about/</guid>
+      <description>&lt;p&gt;About me&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.example.com/about/index_/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://www.example.com/about/index_/</guid>
+      <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
+
+&lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;
+
+&lt;p&gt;In Two Days of the Condor, it is revealed that Erlich no longer codes due to carpal tunnel syndrome.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.example.com/contact/index_/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://www.example.com/contact/index_/</guid>
+      <description>&lt;p&gt;Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]&lt;/p&gt;
+
+&lt;p&gt;In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.&lt;/p&gt;
+
+&lt;p&gt;In Two Days of the Condor, it is revealed that Erlich no longer codes due to carpal tunnel syndrome.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CodeRag</title>
+      <link>https://www.example.com/coderag/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://www.example.com/coderag/</guid>
+      <description>&lt;p&gt;Notes: This article originally appeared in &lt;a href=&#34;http://www.coderag.com/-note-from-the-editor/&#34;&gt;CodeRag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Code/Rag has always been more than just another online tech blog. We strive to be part of the tech community—serving an essential, fundamental look at what’s going on in the valley. It’s why our tagline is “Know Your Code.” We think a tech news publication should know the basics. Be the source. Get down to brass tacks. We can do that because we’re part of the very ecosystem we’re reporting on. And like any other company in the Silicon Valley community, Code/Rag is an ever-evolving entity.&lt;/p&gt;
+
+&lt;p&gt;Part of Code/Rag’s evolution includes our new investor: Bachmanity Capital. Bachmanity, as of this writing, owns a 50 percent stake in Code/Rag. I want to assure our readers this will in no way affect the quality or integrity of our journalism (it takes more than a couple dollars to shut me up). It simply means we have more funds to chase down the story, more resources to analyze trends and more assurances that when you read Code/Rag, you’ll know your code.&lt;/p&gt;
+
+&lt;p&gt;C.J. Cantwell
+Editor-in-Chief&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.example.com/contact/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>https://www.example.com/contact/</guid>
+      <description>&lt;p&gt;Contact&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MathJax</title>
+      <link>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</link>
+      <pubDate>Sun, 02 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</guid>
+      <description>
+
+&lt;p&gt;One of the primary reason I switch to &lt;em&gt;hugo&lt;/em&gt; is the the fact that I can write markdown files that will get formated and converted to static html files. The second reason is the ability to include &lt;code&gt;$ TeX Code $&lt;/code&gt; style equations using mathjax.&lt;/p&gt;
+
+&lt;h4 id=&#34;mathjax&#34;&gt;MathJax&lt;/h4&gt;
+
+&lt;p&gt;This is what they have on the mathjax website and its true &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;https://www.mathjax.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+Beautiful math in all browsers. A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;setup-mathjax-with-hugo&#34;&gt;Setup MathJax with hugo&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All you need to know how to set up MathJax is here &lt;a href=&#34;https://gohugo.io/tutorials/mathjax/&#34;&gt;https://gohugo.io/tutorials/mathjax/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;include the following script tag in to your site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/
+MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start writing some math equations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;$$G_{\mu\nu} + \Lambda g_{\mu} = \frac{8 \pi G}{c^{4}}T_{\mu\nu}$$&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;    G_{\mu\nu} + \Lambda g_{\mu\nu}=\frac{8\pi G}{c^{4}}T_{\mu\nu}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inline equations:  &lt;code&gt;\( f(x) = sin(x^2) \)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    `\( f(x) = sin(x^2) \)`
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
