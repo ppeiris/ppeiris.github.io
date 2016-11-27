@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.16" />
 
-  <title>About &middot; Hello!</title>
+  <title>Write LaTeX style equations in Jekyll &middot; Hello!</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="Hello!" href="https://www.example.com/tags/about/index.xml" />
   
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -204,10 +202,6 @@
     
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://www.example.com/tags/about/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
-    
 
   </ul>
 </div>
@@ -230,93 +224,47 @@
 
 
 <div class="header">
-  <h1>About</h1>
+  <h1>Write LaTeX style equations in Jekyll</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
   
-    <article>
-  <header>
-    <h2><a href="https://www.example.com/about/">About</a></h2>
 
-    <div class="post-meta">
+<p>One of the primary reason I switch to Jekyll is the the fact that I can write markdown files that will get formated and converted to static html file. The second reason is the ability to include LaTeX style equations using <strong>mathjax</strong>.</p>
 
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Oct 2016, 22:55</time>
-  </div>
+<h4 id="mathjax">MathJax</h4>
 
-  
+<p>This is what they have on the mathjax website and its true <a href="https://www.mathjax.org/">https://www.mathjax.org/</a>
+<blockquote>
+Beautiful math in all browsers. A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+</blockquote></p>
 
-  
+<h4 id="steps-i-took-in-order-for-me-to-get-mathjax-start-working-on-this-website">Steps I took in order for me to get mathjax start working on this website.</h4>
 
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://www.example.com/tags/about">about</a>
-    
-  </div>
-  
-  
+<ul>
+<li>include the following script tag in to your site</li>
+</ul>
 
-</div>
+<p>{% highlight js %}
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endhighlight %}</p>
 
-  </header>
+<ul>
+<li><p>Start writing some math equations</p>
 
-  <p>
-  Prabath Peiris First ordered list item Another item ⋅⋅* Unordered sub-list. Actual numbers don&rsquo;t matter, just that it&rsquo;s a number ⋅⋅1. Ordered sub-list And another item. adding another heading some stuff
-  </p>
+<p>$$G<em>{\mu\nu} + \Lambda g</em>{\mu\nu} = \frac{8 \pi G}{c^{4}}T<em>{\mu\nu}$$
+{% highlight latex %}
+G</em>{\mu\nu} + \Lambda g<em>{\mu\nu}=\frac{8\pi G}{c^{4}}T</em>{\mu\nu}
+{% endhighlight latex %}</p></li>
 
-  
-</article>
+<li><p>Inline equations:  \( f(x) = sin(x^2) \)</p>
 
-  
-    <article>
-  <header>
-    <h2><a href="https://www.example.com/about/index_/">About</a></h2>
+<p>{% highlight latex %}
+\( f(x) = sin(x^2) \)
+{% endhighlight latex %}</p></li>
+</ul>
 
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Oct 2016, 22:55</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://www.example.com/tags/about">about</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1] In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.
-  </p>
-
-  
-  <footer>
-    <a href="https://www.example.com/about/index_/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
 </div>
 
 </div>
@@ -343,3 +291,4 @@
 
 </body>
 </html>
+

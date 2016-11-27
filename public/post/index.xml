@@ -173,5 +173,50 @@ dnf install hugo&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Write LaTeX style equations in Jekyll</title>
+      <link>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/post/2016-11-21-mathjax-in-jekyll/</guid>
+      <description>
+
+&lt;p&gt;One of the primary reason I switch to Jekyll is the the fact that I can write markdown files that will get formated and converted to static html file. The second reason is the ability to include LaTeX style equations using &lt;strong&gt;mathjax&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;mathjax&#34;&gt;MathJax&lt;/h4&gt;
+
+&lt;p&gt;This is what they have on the mathjax website and its true &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;https://www.mathjax.org/&lt;/a&gt;
+&lt;blockquote&gt;
+Beautiful math in all browsers. A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;steps-i-took-in-order-for-me-to-get-mathjax-start-working-on-this-website&#34;&gt;Steps I took in order for me to get mathjax start working on this website.&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;include the following script tag in to your site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;{% highlight js %}
+&lt;script type=&#34;text/javascript&#34; src=&#34;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+{% endhighlight %}&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Start writing some math equations&lt;/p&gt;
+
+&lt;p&gt;$$G&lt;em&gt;{\mu\nu} + \Lambda g&lt;/em&gt;{\mu\nu} = \frac{8 \pi G}{c^{4}}T&lt;em&gt;{\mu\nu}$$
+{% highlight latex %}
+G&lt;/em&gt;{\mu\nu} + \Lambda g&lt;em&gt;{\mu\nu}=\frac{8\pi G}{c^{4}}T&lt;/em&gt;{\mu\nu}
+{% endhighlight latex %}&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inline equations:  \( f(x) = sin(x^2) \)&lt;/p&gt;
+
+&lt;p&gt;{% highlight latex %}
+\( f(x) = sin(x^2) \)
+{% endhighlight latex %}&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
