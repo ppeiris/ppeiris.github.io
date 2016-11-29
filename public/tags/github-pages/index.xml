@@ -53,7 +53,7 @@
 
 &lt;p&gt;Convert Evernote notes to a static html pages or a markdown pages. Since the hugo static generator usually convert markdown files to html pages, I write all my notes in markdown format in Evernote.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ enwrite -n evernote_notebook_name -t tag_1 tag_2 -o /home/ppeiris/Dropbox/evernotetomd/my-hugo-blog
+&lt;pre&gt;&lt;code&gt;$ enwrite -n evernote_notebook_name -t tag_1 tag_2 -o /path/to/your/site/my-hugo-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -75,7 +75,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;go to github account and set the default branch to ppeiris.src&lt;/li&gt;&lt;li&gt;delete the master branch local and remote&lt;/li&gt;
+&lt;li&gt;go to github account and set the default branch to ppeiris.src&lt;/li&gt;
+&lt;li&gt;delete the master branch local and remote&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ git branch -D master
