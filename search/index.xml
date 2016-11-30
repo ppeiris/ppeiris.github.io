@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Searches on Hello!</title>
+    <link>http://ppeir.is/search/</link>
+    <description>Recent content in Searches on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <atom:link href="http://ppeir.is/search/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://ppeir.is/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ppeir.is/search/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34;&gt;
+&lt;title&gt;Tipue Search Static Mode Demo&lt;/title&gt;
+
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+
+&lt;link href=&#34;http://fonts.googleapis.com/css?family=Open+Sans:300,400|Merriweather:300,300italic&#34; rel=&#34;stylesheet&#34;&gt;
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;../../inc/normalize.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;../../inc/standard.css&#34;&gt;
+
+&lt;script type=&#34;text/javascript&#34; src=&#34;tipuesearch/tipuesearch_set.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;tipuesearch/tipuesearch_content.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;tipuesearch/tipuesearch.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;tipuesearch/tipuesearch.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;/head&gt;&lt;body&gt;
+
+
+&lt;!-- head --&gt;
+
+
+&lt;div id=&#34;head&#34;&gt;&lt;div class=&#34;head_icon&#34;&gt;&lt;a href=&#34;http://www.tipue.com&#34;&gt;&lt;img src=&#34;../../img/head.png&#34; alt=&#34;Tipue&#34;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;!-- body --&gt;
+
+
+&lt;div class=&#34;center&#34; style=&#34;padding-top: 90px;&#34;&gt;&lt;a href=&#34;http://www.tipue.com/search&#34;&gt;&lt;img src=&#34;../../img/radio3.png&#34; alt=&#34;Tipue Search&#34;&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;center&#34;&gt;&lt;div class=&#34;inner&#34; style=&#34;padding-top: 27px;&#34;&gt;&lt;h2&gt;Tipue Search Static Mode Demo&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;block&#34; style=&#34;padding-top: 39px;&#34;&gt;
+
+&lt;form action=&#34;search.html&#34;&gt;
+&lt;input type=&#34;text&#34; name=&#34;q&#34; id=&#34;tipue_search_input&#34; autocomplete=&#34;off&#34; required&gt;
+&lt;/form&gt;
+&lt;div id=&#34;tipue_search_content&#34;&gt;&lt;/div&gt;
+
+
+
+&lt;div class=&#34;center ital&#34; style=&#34;padding: 39px 0 30px 0;&#34;&gt;&amp;copy; 2015, &lt;a href=&#34;http://www.tipue.com&#34;&gt;Tipue&lt;/a&gt;. Made in London.&lt;/div&gt;
+
+&lt;script&gt;
+$(document).ready(function() {
+     $(&#39;#tipue_search_input&#39;).tipuesearch();
+});
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
