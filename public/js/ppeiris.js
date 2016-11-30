@@ -9,3 +9,4 @@ function formatDate() {
 }
 
 $("#apod").attr("src", ["http://apod.nasa.gov/apod/calendar/S_", formatDate(), ".jpg"].join(''));
+
