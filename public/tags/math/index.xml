@@ -6,15 +6,27 @@
     <description>Recent content in Math on Hello!</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 02 Oct 2016 15:59:13 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jan 2017 01:50:13 -0400</lastBuildDate>
     <atom:link href="http://ppeir.is/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Covariance Matrix Using Python</title>
+      <link>http://ppeir.is/post/CovarianceMatrix/</link>
+      <pubDate>Sat, 14 Jan 2017 01:50:13 -0400</pubDate>
+      
+      <guid>http://ppeir.is/post/CovarianceMatrix/</guid>
+      <description>&lt;p&gt;Covariance is a measure of the extent to which corresponding elements from two sets of ordered data move in the same direction. $X$ and $Y$ are two vectors.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/ppeiris/Learning/blob/master/Math/PrincipalComponenetAnalysis/CovarianceMatrix.ipynb#Center-raw-data-Matrix&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ppeir.is/img/covariancematrix_toc.png&#34;&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MathJax</title>
-      <link>http://ppeir.is/post/2016-11-21-mathjax-in-jekyll/</link>
+      <link>http://ppeir.is/post/2016-11-21-mathjax-in-hugo/</link>
       <pubDate>Sun, 02 Oct 2016 15:59:13 -0400</pubDate>
       
-      <guid>http://ppeir.is/post/2016-11-21-mathjax-in-jekyll/</guid>
+      <guid>http://ppeir.is/post/2016-11-21-mathjax-in-hugo/</guid>
       <description>
 
 &lt;p&gt;One of the primary reason I switch to &lt;em&gt;hugo&lt;/em&gt; is the the fact that I can write markdown files that will get formated and converted to static html files. The second reason is the ability to include &lt;code&gt;$ TeX Code $&lt;/code&gt; style equations using mathjax.&lt;/p&gt;
