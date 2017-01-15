@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Deploy personal github pages">
+  <meta name="description" content="Beautiful math in all browsers">
   <meta name="generator" content="Hugo 0.16" />
 
-  <title>&lt;username&gt;.github.io &middot; Hello!</title>
+  <title>MathJax &middot; Hello!</title>
 
   
   
@@ -34,7 +34,7 @@
 
   
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   
   
 
@@ -54,9 +54,6 @@
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
-
-
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -84,15 +81,10 @@ MathJax.Hub.Config({
 });
 </script>
 
-
-
-
-
-
-
-
   <link rel="shortcut icon" href="http://ppeir.is/img/favicon.ico" type="image/x-icon" />
 
+  
+    <link rel="stylesheet" href="http://ppeir.is/css/ppeiris.css">
   
 
 </head>
@@ -101,7 +93,7 @@ MathJax.Hub.Config({
 <body>
 <div id="layout">
 
-  
+  	
 <a href="#menu" id="menuLink" class="menu-link">
   
   <span></span>
@@ -255,15 +247,16 @@ MathJax.Hub.Config({
 </div>
 
 
+
 </div>
 
+	<div id="main">
 
-  <div id="main">
 
 
 <div class="header">
-  <h1>&lt;username&gt;.github.io</h1>
-  <h2>Deploy personal github pages</h2>
+  <h1>MathJax</h1>
+  <h2>Beautiful math in all browsers</h2>
 </div>
 <div class="content">
 
@@ -271,7 +264,7 @@ MathJax.Hub.Config({
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>23 Nov 2016, 00:00</time>
+    <time>02 Oct 2016, 15:59</time>
   </div>
 
   
@@ -284,7 +277,11 @@ MathJax.Hub.Config({
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="http://ppeir.is/tags/github-pages">github pages</a>
+      <a class="post-taxonomy-tag" href="http://ppeir.is/tags/mathjax">mathjax</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://ppeir.is/tags/math">math</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://ppeir.is/tags/latex">latex</a>
     
   </div>
   
@@ -294,142 +291,51 @@ MathJax.Hub.Config({
 
   
 
-<h3 id="install-hugo">Install hugo</h3>
+<p>One of the primary reason I switch to <em>hugo</em> is the the fact that I can write markdown files that will get formated and converted to static html files. The second reason is the ability to include <code>$ TeX Code $</code> style equations using mathjax.</p>
 
-<p>I have used hugo (<a href='https://gohugo.io/'><a href="https://gohugo.io/">https://gohugo.io/</a></a>), static site generator to generate this site.</p>
+<h4 id="mathjax">MathJax</h4>
 
-<h4 id="install-hugo-1">Install hugo</h4>
+<p>This is what they have on the mathjax website and its true <a href="https://www.mathjax.org/">https://www.mathjax.org/</a></p>
 
-<p>Download and install using package from <a href='https://github.com/spf13/hugo/releases'><a href="https://github.com/spf13/hugo/releases">https://github.com/spf13/hugo/releases</a></a>
- - install hugo in fedora  (<a href='https://copr.fedorainfracloud.org/coprs/spf13/Hugo/'><a href="https://copr.fedorainfracloud.org/coprs/spf13/Hugo/">https://copr.fedorainfracloud.org/coprs/spf13/Hugo/</a></a>)
-add the dnf repo
-dnf install hugo</p>
+<blockquote>
+Beautiful math in all browsers. A JavaScript display engine for mathematics that works in all browsers. No more setup for readers. It just works.
+</blockquote>
 
-<h4 id="install-enwrite">Install enwrite</h4>
-
-<p>enwrite is a nice tool to convert evernote into hugo page/blog</p>
-
-<p><ul><li>Download and install from <a href='https://github.com/zzamboni/enwrite'><a href="https://github.com/zzamboni/enwrite">https://github.com/zzamboni/enwrite</a></a> </li><li>bring new notes from evernote</li></ul>enwrite -n my_notebook -t published -o /home/ppeiris/Dropbox/evernotetomd/my-hugo-blog</p>
-
-<p><hr/>### Setup hugo site to serve as a personal github page</p>
-
-<h4 id="initial-setup">Initial setup</h4>
-
-<p>Personal github pages are served from the master branch of special repository that start with your use name. In my case it looks like this ppeiris.github.io. Hugo site structure is little different where the public folder is in the root directory instead public being the root directory. In this particular case, we can not just push the entire project to ppeiris.github.io. The solution is to push the pubic directory in to master branch and the source files in to another branch within the repository (in this case I call this branch as ppeiris.src). master (public/) and the ppeiris.src (hugo source) managed using git subtrees.</p>
-
-<p>Lets assume you already have the website built in your machine.</p>
+<h4 id="setup-mathjax-with-hugo">Setup MathJax with hugo</h4>
 
 <ul>
-<li>Push all the data to a new branch (placeholder) in github</li>
+<li>All you need to know how to set up MathJax is here <a href="https://gohugo.io/tutorials/mathjax/">https://gohugo.io/tutorials/mathjax/</a></li>
+<li>include the following script tag in to your site</li>
 </ul>
 
-<p>git push origin ppeiris.src</p>
+<pre><code class="language-js">&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/
+MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+</code></pre>
 
 <ul>
-<li>go to github account and set the default branch to ppeiris.src</li>
-<li>Delete the master branch local and remote</li>
+<li>Start writing some math equations</li>
 </ul>
 
-<p>git branch -D master
-git push origin :master</p>
+<div>$$G_{\mu\nu} + \Lambda g_{\mu} = \frac{8 \pi G}{c^{4}}T_{\mu\nu}$$</div>
+
+<pre><code>    G_{\mu\nu} + \Lambda g_{\mu\nu}=\frac{8\pi G}{c^{4}}T_{\mu\nu}
+</code></pre>
 
 <ul>
-<li>Create and empty orphaned master branch</li>
+<li>Inline equations:  <code>\( f(x) = sin(x^2) \)</code></li>
 </ul>
 
-<p>git checkout &ndash;orphan master</p>
-
-<ul>
-<li>Delete all the files in master branch</li>
-</ul>
-
-<p>git rm &ndash;rf *</p>
-
-<ul>
-<li>Checkout the README.md file from the ppeiris.src branch and add to master branch. If you have CNAME file setup to use your own domain, you need to bring that file too</li>
-</ul>
-
-<p>git checkout ppeiris.src README.md CNAME
-git add .
-git commit -m &lsquo;Add README.md file and CNAME&rsquo;</p>
-
-<ul>
-<li>Push master branch</li>
-</ul>
-
-<p>git push origin master</p>
-
-<ul>
-<li>Switch to the ppeiris.src branch</li>
-</ul>
-
-<p>git checkout -f ppeiris.src</p>
-
-<ul>
-<li>Remove the public/ dir and commit</li>
-</ul>
-
-<p>git rm -rf public
-git add -u
-git commit -m &lsquo;Remove public folder&rsquo;</p>
-
-<ul>
-<li>Add the master branch as a subtree</li>
-</ul>
-
-<p>git subtree add &ndash;prefix=public &ndash;squash <a href="https://github.com/ppeiris/ppeiris.github.io.git">https://github.com/ppeiris/ppeiris.github.io.git</a> master</p>
-
-<ul>
-<li>Pull down the committed files</li>
-</ul>
-
-<p>git subtree pull &ndash;prefix=public <a href="https://github.com/ppeiris/ppeiris.github.io.git">https://github.com/ppeiris/ppeiris.github.io.git</a> master</p>
-
-<ul>
-<li>Go to github web and change the default branch to master</li>
-</ul>
-
-<h4 id="deploy-updates-to-the-site-public">Deploy updates to the site (public/)</h4>
-
-<ul>
-<li>Pull down everything from the master branch (subtree)</li>
-</ul>
-
-<p>git subtree pull &ndash;prefix=public <a href="https://github.com/ppeiris/ppeiris.github.io.git">https://github.com/ppeiris/ppeiris.github.io.git</a> master</p>
-
-<ul>
-<li>Build the site with hugo - this will regenerate the public directory with all the static files</li>
-</ul>
-
-<p>hugo</p>
-
-<ul>
-<li>Add files to ppeiris.src directory and push them to repo</li>
-</ul>
-
-<p>git add .
-git commit -m &lsquo;Add newly generated static files&rsquo;
-git push origin ppeiris.src</p>
-
-<ul>
-<li>Push the public directory to master branch using subtree push</li>
-</ul>
-
-<p>git subtree push &ndash;prefix=public <a href="https://github.com/ppeiris/ppeiris.github.io.git">https://github.com/ppeiris/ppeiris.github.io.git</a> master</p>
+<pre><code>    `\( f(x) = sin(x^2) \)`
+</code></pre>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="http://ppeir.is/post/2016-11-21-mathjax-in-jekyll/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="http://ppeir.is/post/2016-11-21-mathjax-in-jekyll/">MathJax</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -437,8 +343,14 @@ git push origin ppeiris.src</p>
   </div>
   <div class="pure-u-10-24">
     
+    <nav class="next">
+      <a href="http://ppeir.is/post/2016-11-23-%3Cusername%3E.github.io/">&lt;username&gt;.github.io</a>
+    </nav>
+    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="http://ppeir.is/post/2016-11-23-%3Cusername%3E.github.io/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
@@ -467,6 +379,21 @@ git push origin ppeiris.src</p>
 
 </div>
 
+  	<div id="gsearch">
+<script>
+  (function() {
+    var cx = '012539744541079210915:fbqelorp_hy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+
 </div>
 </div>
 <script src="http://ppeir.is/js/ui.js"></script>
@@ -479,13 +406,12 @@ git push origin ppeiris.src</p>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'Your Google Analytics tracking ID', 'auto');
+  ga('create', 'UA-88268404-1', 'auto');
   ga('send', 'pageview');
 
 </script>
-
 
 
 
