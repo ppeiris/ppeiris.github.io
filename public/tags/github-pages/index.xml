@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github Pages on Hello!</title>
+    <link>http://ppeir.is/tags/github-pages/</link>
+    <description>Recent content in Github Pages on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 23 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ppeir.is/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&lt;username&gt;.github.io</title>
+      <link>http://ppeir.is/post/2016-11-23-%3Cusername%3E.github.io/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ppeir.is/post/2016-11-23-%3Cusername%3E.github.io/</guid>
+      <description>
+
+&lt;p&gt;Github allow hosting a static website for your project and your personal profile. There are plenty of examples you can find on the internet how to do these. I have come across many different static site generating applications and Jekyll is what github uses by default. I have used Jekyll and it is absolutely awesome; however, I am using Hugo to create my static site. In my case, I am a big fan of &lt;a href=&#34;https://www.evernote.com&#34;&gt;Evernote&lt;/a&gt; and almost all the notes and files are uploaded and stored in Evernote. Since Apple releases the &lt;a href=&#34;http://www.apple.com/us_epp_5001376/shop/ipad/ipad-accessories&#34;&gt;Apple Pencil&lt;/a&gt;, I abandoned paper and pencils. I write everything on the iPad and there are plenty of awesome apps available to do this. Every note/annotated pdf/image I use in iPad automatically back up in Evernote, In other words, everything is centralized.&lt;/p&gt;
+
+&lt;p&gt;I like to share some of my thoughts and work on my blog page but do not have time to keep writing these blog posts. Then I realized I have everything already in the Evernote and would be nice if I can just publish some of the notes as my blog posts. This is what I am trying to explain in this post. For me to do this, I am using following applications/systems&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;a href=&#39;https://www.evernote.com&#39;&amp;gt;https://www.evernote.com&amp;lt;/a&#34;&gt;Evernote&lt;/a&gt; - (all my notes/blog post/pages are here)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;a href=&#39;https://gohugo.io/&#39; style=&#39;font-family:gotham, helvetica, arial, sans-serif;font-size:14px;&#39;&amp;gt;https://gohugo.io/&amp;lt;/a&#34;&gt;Hugo&lt;/a&gt; - (static site generator)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;a href=&#39;https://github.com/zzamboni/enwrite&#39; style=&#39;font-family:&amp;quot;Helvetica Neue&amp;quot;, Arial, sans;font-size:16px;&#39;&amp;gt;https://github.com/zzamboni/enwrite&amp;lt;/a&#34;&gt;evenwrite&lt;/a&gt; - (convert evernote notes to markdown/html pages)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;a href=&#39;https://github.com/&#39;&amp;gt;https://github.com/&amp;lt;/a&#34;&gt;github&lt;/a&gt; - (host my personal blog)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will skip explaining about Evernote and github since they very familiar things we use it every day, even if you are not, getting start using them is quite easy, and there are plenty of help out there if you need additional help.&lt;/p&gt;
+
+&lt;h1 id=&#34;install-hugo&#34;&gt;Install hugo&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;download/install using package from &lt;a href=&#39;https://github.com/spf13/hugo/releases&#39;&gt;&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;https://github.com/spf13/hugo/releases&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(I use fedora) install hugo in fedora (&lt;a href=&#39;https://copr.fedorainfracloud.org/coprs/spf13/Hugo/&#39;&gt;&lt;a href=&#34;https://copr.fedorainfracloud.org/coprs/spf13/Hugo/&#34;&gt;https://copr.fedorainfracloud.org/coprs/spf13/Hugo/&lt;/a&gt;&lt;/a&gt;)
+
+&lt;ul&gt;
+&lt;li&gt;add hugo repository to dnf&lt;/li&gt;
+&lt;li&gt;dnf install hugo&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;install-enwrite&#34;&gt;Install enwrite&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;enwrite&lt;/strong&gt; is a nice tool to convert evernote into hugo page/blog&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download/install enwrite from &lt;a href=&#39;https://github.com/zzamboni/enwrite&#39;&gt;&lt;a href=&#34;https://github.com/zzamboni/enwrite&#34;&gt;https://github.com/zzamboni/enwrite&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bring new notes from evernote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Convert Evernote notes to a static html pages or a markdown pages. Since the hugo static generator usually convert markdown files to html pages, I write all my notes in markdown format in Evernote.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ enwrite -n evernote_notebook_name -t tag_1 tag_2 -o /path/to/your/site/my-hugo-blog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;evernote_notebook_name&lt;/em&gt;: Name of the evernote notebook in your evernote account&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;tag_1, tag_2&lt;/em&gt;: You can tag each note with in evernote. I usually tag with a particular tag that I would like to publish on my blog which will pick up by enwrite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;setup-hugo-site-to-serve-as-a-personal-github-page&#34;&gt;Setup hugo site to serve as a personal github page&lt;/h1&gt;
+
+&lt;p&gt;Personal github pages are served from the master branch of special repository that starts with your user name. In my case, it looks like ppeiris.github.io. Hugo site structure is little different where the public folder is in the root directory instead public being the root directory. In this particular case, we can not just push the entire project to ppeiris.github.io. The solution is to push the public directory into master branch and the source files into another branch within the repository (in my case, I call this branch as ppeiris.src). master (public/) and the ppeiris.src (hugo source) branches are managed using git subtrees.&lt;/p&gt;
+
+&lt;p&gt;Lets assume you already have the website built in your local machine.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Push all the data to a new branch (placeholder) in github&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ git push origin ppeiris.src
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;go to github account and set the default branch to ppeiris.src&lt;/li&gt;
+&lt;li&gt;delete the master branch local and remote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ git branch -D master
+$ git push origin :master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;create and empty orphaned master branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git checkout --orphan master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;delete all the files in master branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git rm --rf *
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;checkout the README.md file from the ppeiris.src branch and add to master branch. If you have CNAME file setup to use your own domain, you need to bring that file too&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git checkout ppeiris.src README.md CNAME
+$ git add .
+$ git commit -m &#39;Add README.md file and CNAME&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;push master branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;switch to the ppeiris.src branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git checkout -f ppeiris.src
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;remove the public/ dir and commit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git rm -rf public
+$ git add -u
+$ git commit -m &#39;Remove public folder&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add the master branch as a subtree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git subtree add --prefix=public --squash https://github.com/ppeiris/ppeiris.github.io.git master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pull down the committed files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git subtree pull --prefix=public https://github.com/ppeiris/ppeiris.github.io.git master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;go to github web and change the default branch to master&lt;/p&gt;
+
+&lt;h1 id=&#34;deploy-updates-to-the-site-public&#34;&gt;Deploy updates to the site (public/)&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pull down everything from the master branch (subtree)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git subtree pull --prefix=public https://github.com/ppeiris/ppeiris.github.io.git master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build the site with hugo - this will regenerate the public directory with all the static files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add files to ppeiris.src directory and push them to repo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git add . 
+$ git commit -m &#39;Add newly generated static files&#39;
+$ git push origin ppeiris.src
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Push the public directory to master branch using subtree push&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git subtree push --prefix=public https://github.com/ppeiris/ppeiris.github.io.git master
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
