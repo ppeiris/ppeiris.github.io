@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Principal Componenet Analysis on Hello!</title>
+    <link>http://ppeir.is/tags/principal-componenet-analysis/</link>
+    <description>Recent content in Principal Componenet Analysis on Hello!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ppeir.is/tags/principal-componenet-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Principal Componenet Analysis (PCA)</title>
+      <link>http://ppeir.is/post/PrincipalComponentAnalysis/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ppeir.is/post/PrincipalComponentAnalysis/</guid>
+      <description>&lt;p&gt;Principle Component Analysis (PCA) is a standard tool in modern data analysis. PCA Provides a roadmap for how to reduce a complex data set to a lower dimension to reveal the sometimes hidden, simplified structures that often underline it. The goal of this posting is to provide some intuitive understanding of PCA via some coding examples. To understand what&amp;rsquo;s happening behind the scene (mathematics) you need to have a sound knowledge of linear algebra.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/ppeiris/Learning/blob/master/Math/PrincipalComponenetAnalysis/PCA.ipynb&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/ppeiris/Learning/master/Math/PrincipalComponenetAnalysis/img/pca_toc.png&#34;&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
