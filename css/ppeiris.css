@@ -1,8 +1,29 @@
 #gsearch {
-  max-width: 800px;
-      margin-left: 25px;
+  	max-width: 800px;
+    margin-left: 25px;
     padding: 0 2em;
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
+}
+
+.tagsdiv {
+	color: rgba(0, 0, 0, 0.5);
+    padding: 0 0em;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.footermore {
+    color: rgba(0, 0, 0, 0.4);
+    padding: 0 0em;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.8em;
+
+}
+
+.copyr {
+    color: rgba(255, 255, 255, 0.2);
 }
