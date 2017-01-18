@@ -2,7 +2,7 @@ baseurl = "http://ppeir.is/"
 title = "Hello!"
 author = "Prabath Peiris"
 # Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "blackburn"
@@ -20,10 +20,10 @@ theme = "blackburn"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
 
-  dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "02 Jan 2006"
   # Include any custom CSS and/or JS files
   # (relative to /static folder)
-  custom_css = ["css/ppeiris.css"]
+  custom_css = ["css/ppeiris.css", "css/pure.css"]
   custom_js = ["js/ppeiris.js"]
 
 [menu]

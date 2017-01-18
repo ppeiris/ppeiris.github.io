@@ -10,9 +10,8 @@
   {{ .Summary }}
   </p>
 
-  {{ if .Truncated }}
+
   <footer>
-    <a href="{{ .RelPermalink }}">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    <a class="footermore" href="{{ .RelPermalink }}">more<i class="fa fa-angle-double-right fa-fw"></i></a>
   </footer>
-  {{ end }}
 </article>
